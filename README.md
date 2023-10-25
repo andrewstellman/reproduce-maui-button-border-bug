@@ -2,7 +2,8 @@
 
 ### Description
 
-The Button.BorderColor property does not seem to work on some platforms. Adding `BorderColor="Black"` to the XAML for a Button control seems to have no effect on macOS or Android.
+The Button.BorderColor property does not seem to work on some platforms. Adding `BorderColor="Black"` to the XAML for a Button control seems to have no effect on macOS or Android. This is related to 
+https://github.com/dotnet/maui/issues/18261.
 
 ### Steps to Reproduce
 
